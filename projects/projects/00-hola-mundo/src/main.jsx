@@ -1,10 +1,19 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
+// File: src/main.jsx
+// Project: 00-hola-mundo
+import React from 'react'
+import ReactDOM from 'react-dom/client'
 import './index.css'
-import App from './App.jsx'
+import { TwitterFollowCard } from './TwitterFollowCard.jsx'
 
-createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <App />
-  </StrictMode>,
+
+const root = ReactDOM.createRoot(document.getElementById('root'))
+
+root.render(
+  <>
+
+    <TwitterFollowCard userName={"pfisternz"} name={"Nazareno Pfister"} />
+    <br />
+    <TwitterFollowCard userName={"pfisternz"} name={"Nazareno Pfister"} />
+
+  </>
 )
