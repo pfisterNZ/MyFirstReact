@@ -1,0 +1,11 @@
+
+.tw-feedheader{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #f8f9fa37;
+}
+
+.tw-feedheader-icon{
+    border-radius: 999%;
+}
